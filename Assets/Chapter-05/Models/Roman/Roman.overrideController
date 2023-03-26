@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Roman
+  m_Controller: {fileID: 9100000, guid: d452cfbbc6caa42fe96fc1b3c855dd61, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 6720303635017113406, guid: a6c17bad3e4cc4f73abd71cbf379308f, type: 3}
+    m_OverrideClip: {fileID: 6720303635017113406, guid: 2e71a3ac37fe7495993a2624f05a1d72, type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: a6c17bad3e4cc4f73abd71cbf379308f, type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: 2e71a3ac37fe7495993a2624f05a1d72, type: 3}
+  - m_OriginalClip: {fileID: -998496362607748373, guid: a6c17bad3e4cc4f73abd71cbf379308f, type: 3}
+    m_OverrideClip: {fileID: 5522812681064789136, guid: 2e71a3ac37fe7495993a2624f05a1d72, type: 3}
+  - m_OriginalClip: {fileID: -4630339522487117836, guid: a6c17bad3e4cc4f73abd71cbf379308f, type: 3}
+    m_OverrideClip: {fileID: -4630339522487117836, guid: 2e71a3ac37fe7495993a2624f05a1d72, type: 3}

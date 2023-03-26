@@ -1,0 +1,16 @@
+{
+    "name": "Chapter05",
+    "rootNamespace": "",
+    "references": [
+        "GUID:66385c3e7dde144d6a7af2900a9e40d3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
