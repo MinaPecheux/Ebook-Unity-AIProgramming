@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ed1d9ddcbd14d088e1dc9d66dad402, type: 3}
+  m_Name: HighThreat
+  m_EditorClassIdentifier: 
+  variables:
+  - name: threat
+    variable: {fileID: 11400000, guid: 9cec66ce73c9b42589de7fa5ccb40f6d, type: 2}
+  expression: threat > 0.5
+  hasMin: 0
+  min: 0
+  hasMax: 0
+  max: 0

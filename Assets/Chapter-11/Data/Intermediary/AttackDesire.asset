@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed16401c6b7ae479e9858f2c765816fc, type: 3}
+  m_Name: AttackDesire
+  m_EditorClassIdentifier: 
+  variable: {fileID: 11400000, guid: 1634890343d704fb8b93c4f5c2400179, type: 2}
+  responseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.08642963
+      outSlope: -0.08642963
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.04911839
+    - serializedVersion: 3
+      time: 20
+      value: 0.5
+      inSlope: -0.0015476411
+      outSlope: -0.0015476411
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15239295
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

@@ -1,0 +1,17 @@
+{
+    "name": "UBAI",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d99c4b866e4ee40f88b8486c52e40e45",
+        "GUID:1a6e9a1a169c849378542950bb1fefac"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

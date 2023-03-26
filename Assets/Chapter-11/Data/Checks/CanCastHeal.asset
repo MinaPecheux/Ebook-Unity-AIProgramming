@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd816e796258741799ed173eb3f84300, type: 3}
+  m_Name: CanCastHeal
+  m_EditorClassIdentifier: 
+  updated:
+    m_PersistentCalls:
+      m_Calls: []
+  variables:
+  - name: mana
+    variable: {fileID: 11400000, guid: c020f6b0c86d348cc9358c10cf7de831, type: 2}
+  - name: frozen
+    variable: {fileID: 11400000, guid: 0b7031d54138b4723b0b569e5c7a7949, type: 2}
+  - name: spell.manaCost
+    variable: {fileID: 11400000, guid: 0613213a8854c43e2acb9bc5833ae9ab, type: 2}
+  leftExpression: mana
+  op: 5
+  rightExpression: spell.manaCost + frozen

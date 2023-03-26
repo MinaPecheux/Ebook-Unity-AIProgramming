@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4d62aa91f1dd495a9ad0cc5ba8a1ed2, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: 
+  amount: 3
+  manaCost: 1
+  animation: Heal
+  onSelf: 1
+  freezes: 0
+  callbackName: Heal
+  castVfxPrefab: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065, type: 3}
+  hitVfxPrefab: {fileID: 8771972552311404799, guid: bbf9e36a48d6c5648a13889afab076fd, type: 3}
