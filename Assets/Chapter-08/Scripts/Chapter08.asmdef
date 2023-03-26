@@ -1,0 +1,18 @@
+{
+    "name": "Chapter08",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3e2adf1e58ebb4e7984e7705f79c3dc9",
+        "GUID:5ac5a6c83f06144e0b9b7e8e428ec15b",
+        "GUID:618c33015f9f54a82a9a11cd7d4c3c8f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
