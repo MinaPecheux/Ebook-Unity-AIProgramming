@@ -15,7 +15,7 @@ public abstract class UnitFSM : StateMachine
     [Header("Health")]
     public Renderer healthbarRenderer;
     public int maxHealth = 10;
-    [HideInInspector] protected int _currentHealth;
+    private int _currentHealth;
 
     private static MaterialPropertyBlock _mpb;
     private static MaterialPropertyBlock _Mpb
