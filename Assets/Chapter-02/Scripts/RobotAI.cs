@@ -3,12 +3,12 @@ using UnityEngine;
 
 public class RobotAI : MonoBehaviour
 {
-    private static Dictionary<int, Vector2> _DIRECTIONS = new Dictionary<int, Vector2>()
+    private static Vector2[] _OFFSETS = new Vector2[]
     {
-        { 0, new Vector2( 0,  1) }, // up
-        { 1, new Vector2( 1,  0) }, // right
-        { 2, new Vector2( 0, -1) }, // down
-        { 3, new Vector2(-1,  0) }, // left
+        new Vector2( 0,  1), // up
+        new Vector2( 1,  0), // right
+        new Vector2( 0, -1), // down
+        new Vector2(-1,  0), // left
     };
 
     private int _direction;
@@ -22,7 +22,7 @@ public class RobotAI : MonoBehaviour
 
     public (int, int) Execute()
     {
-        Vector2 d = _DIRECTIONS[_direction];
+        Vector2 d = _OFFSETS[_direction];
         var hit = Physics2D.Raycast(transform.position, d, 1f);
         if (hit.collider == null)
         {
@@ -56,10 +56,10 @@ public class RobotAI : MonoBehaviour
     private void _ChooseRandomDirection()
     {
         List<int> possibleDirections = new List<int>() { 0, 1, 2, 3 };
-        foreach (var p in _DIRECTIONS)
+        for (int i = 0; i < _OFFSETS.Length; i++)
         {
-            if (Physics2D.Raycast(transform.position, p.Value, 1f).collider != null) {
-                possibleDirections.Remove(p.Key);
+            if (Physics2D.Raycast(transform.position, _OFFSETS[i], 1f).collider != null) {
+                possibleDirections.Remove(i);
             }
         }
         _SetDirection(possibleDirections[Random.Range(0, possibleDirections.Count)]);
