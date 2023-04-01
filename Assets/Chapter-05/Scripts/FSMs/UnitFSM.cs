@@ -1,4 +1,7 @@
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 using FSM;
 
@@ -50,11 +53,15 @@ public abstract class UnitFSM : StateMachine
         return false;
     }
 
-  protected virtual void OnDrawGizmos()
-      {
-            //Handles.color = new Color(1f, 1f, 0f, 0.2f);
-            //Handles.DrawSolidDisc(transform.position, Vector3.up, fieldOfVision);
-            //Handles.color = new Color(1f, 0f, 0f, 0.2f);
-            //Handles.DrawSolidDisc(transform.position, Vector3.up, attackRadius);
+    protected virtual void OnDrawGizmos()
+    {
+#if UNITY_EDITOR
+        if (!_showDebug) return;
+
+        Handles.color = new Color(1f, 1f, 0f, 0.2f);
+        Handles.DrawSolidDisc(transform.position, Vector3.up, fieldOfVision);
+        Handles.color = new Color(1f, 0f, 0f, 0.2f);
+        Handles.DrawSolidDisc(transform.position, Vector3.up, attackRadius);
+#endif
     }
 }
