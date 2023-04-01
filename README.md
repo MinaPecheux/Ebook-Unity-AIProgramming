@@ -61,3 +61,7 @@ All the code and assets for those demos are included in this Github repository, 
 4. The **utility-based wizard AI** (from <u>_Chapter 10: Designing a utility-based wizard AI_</u>): Last but not least, this AI acts as a computer-controller opponent for a little magic duel game, all pumped up with magic! By evaluating the utility of each option in his action set, this sorcerer is able to cast fireballs, ice shards and healing spells... and holds its ground quite convincingly against you in this single-player magic fight game!
 
 <img src="doc/04_ubai-mage.png" />
+
+# Assets
+
+The full list of assets with proper credits and license details is available over here: [ASSETS.md](./ASSETS.md).
