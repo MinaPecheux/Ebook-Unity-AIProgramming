@@ -1538,6 +1538,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 516544991489009037, guid: 9df9f6a4d3782466fa7ceacad939ca52, type: 3}
+      propertyPath: _showDebug
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 516544991489009037, guid: 9df9f6a4d3782466fa7ceacad939ca52, type: 3}
       propertyPath: waypoints.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -1570,6 +1574,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7862732086730663584, guid: 5abeab8714ec54d19b63296f23f93fcc, type: 3}
+      propertyPath: _showDebug
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7413224031419004457, guid: 5abeab8714ec54d19b63296f23f93fcc, type: 3}
       propertyPath: m_RootOrder
       value: 4

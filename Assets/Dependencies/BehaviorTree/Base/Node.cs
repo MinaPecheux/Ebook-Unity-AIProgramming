@@ -73,13 +73,11 @@ namespace BehaviorTree
 
         public object GetData(string key)
         {
-            object val = null;
+            object val;
             if (_data.TryGetValue(key, out val))
                 return val;
-
-            Node node = _parent;
-            if (node != null)
-                val = node.GetData(key);
+            if (_parent != null)
+                val = _parent.GetData(key);
             return val;
         }
 
@@ -96,10 +94,8 @@ namespace BehaviorTree
                 _data.Remove(key);
                 return true;
             }
-
-            Node node = _parent;
-            if (node != null)
-                cleared = node.ClearData(key);
+            if (_parent != null)
+                cleared = _parent.ClearData(key);
             return cleared;
         }
     }
