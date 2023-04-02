@@ -1373,7 +1373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1385,15 +1385,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CastIceShard
+      value: CastSpell
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PlayerManager, Chapter-11
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: a34cab5f6dd414446a5a49c1ce8a8a38, type: 2}
+    - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: Spell, Chapter-11
       objectReference: {fileID: 0}
     - target: {fileID: 7281889333797099523, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_Pivot.x
@@ -4358,7 +4362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4370,15 +4374,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CastHeal
+      value: CastSpell
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PlayerManager, Chapter-11
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 0613213a8854c43e2acb9bc5833ae9ab, type: 2}
+    - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: Spell, Chapter-11
       objectReference: {fileID: 0}
     - target: {fileID: 7281889333797099523, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_Pivot.x
@@ -7199,7 +7207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7211,15 +7219,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CastFireball
+      value: CastSpell
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PlayerManager, Chapter-11
       objectReference: {fileID: 0}
     - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 3d765a6dccd9d4bd882769fd8ebff99f, type: 2}
+    - target: {fileID: 5165681784288403686, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: Spell, Chapter-11
       objectReference: {fileID: 0}
     - target: {fileID: 7281889333797099523, guid: 7f274faf0ce5f4ba1a0df8a89f7f43e4, type: 3}
       propertyPath: m_Pivot.x

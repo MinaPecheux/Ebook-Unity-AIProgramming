@@ -12,25 +12,36 @@ public class PlayerManager : AgentManager
         else if (Input.GetKeyDown(KeyCode.Space))   _SkipTurn();
     }
 
+    public void CastSpell(Spell spell)
+    {
+        Cast(spell);
+        Invoke("_EndTurn", 1f);
+    }
+
     private void _CastFireball() {
         if (!CanCast(Spell.LIB["Fireball"])) return;
         Cast(Spell.LIB["Fireball"]);
-        GameManager.instance.EndTurn();
+        _EndTurn();
     }
     private void _CastIceShard()
     {
         if (!CanCast(Spell.LIB["IceShard"])) return;
         Cast(Spell.LIB["IceShard"]);
-        GameManager.instance.EndTurn();
+        _EndTurn();
     }
     private void _CastHeal()
     {
         if (!CanCast(Spell.LIB["Heal"])) return;
         Cast(Spell.LIB["Heal"]);
-        GameManager.instance.EndTurn();
+        _EndTurn();
     }
 
     private void _SkipTurn()
+    {
+        _EndTurn();
+    }
+
+    private void _EndTurn()
     {
         GameManager.instance.EndTurn();
     }
