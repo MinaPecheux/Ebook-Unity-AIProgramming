@@ -6,6 +6,27 @@ Do you want to bring your NPCs, mobs and bosses to life? Are you curious to lear
 
 <img style="height: 256px; width: auto; margin: 1rem 0;" src="doc/cover.png" />
 
+<p style="display: flex; align-items: center; column-gap: 16px;">
+    <a href="https://books.apple.com/us/book/id6447111384" target="_blank">
+        <img src="./doc/apple.png" style="width: 64px; height: auto;" />
+    </a>
+    <a href="https://www.kobo.com/fr/en/ebook/ai-programming" target="_blank">
+        <img src="./doc/kobo.png" style="width: 64px; height: auto;" />
+    </a>
+    <a href="https://www.smashwords.com/books/view/1372391" target="_blank">
+        <img src="./doc/smashwords.jpg" style="width: 64px; height: auto;" />
+    </a>
+    <a href="https://mpecheux.gumroad.com/l/jxiyeu" target="_blank">
+        <img src="./doc/gumroad.png" style="width: 64px; height: auto;" />
+    </a>
+    <a href="https://payhip.com/b/GQa0Y" target="_blank">
+        <img src="./doc/payhip.png" style="width: 64px; height: auto;" />
+    </a>
+    <a href="https://www.barnesandnoble.com/w/ai-programming-mina-p-cheux/1143297026?ean=2940166494191" target="_blank">
+        <img src="./doc/barnes-noble.png" style="width: 256px; height: auto;" />
+    </a>
+</p>
+
 From **finite state machines** to **behaviour trees**, **planners** and **utility-based AI**, <u>_Boost your Unity/C#: AI Programming_</u> takes you through all the must-know of the field. And yes, don’t worry – here, you’ll get the whole shebang: a brief history of the domain, the what and the why for each tool, direct references to papers/conferences/thesis for diving even deeper, plenty of diagrams and nice screenshots, right down to step-by-step implementation examples with clean code snippets and a reference Github repository for all the demos shown in the book!
 
 So if you’re a Unity dev who’s new to AI programming, or if you’re a seasoned AI developer looking for a quick summary of the tooling with direct Unity/C# applications, go ahead and join me on this adventure :)
