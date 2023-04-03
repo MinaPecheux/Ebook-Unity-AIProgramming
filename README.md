@@ -22,6 +22,9 @@ Do you want to bring your NPCs, mobs and bosses to life? Are you curious to lear
     <a href="https://payhip.com/b/GQa0Y" target="_blank">
         <img src="./doc/payhip.png" style="width: 64px; height: auto;" />
     </a>
+    <a href="https://www.scribd.com/book/635434212/AI-Programming-Boost-your-Unity-C" target="_blank">
+        <img src="./doc/scribd.jpg" style="width: 64px; height: auto;" />
+    </a>
     <a href="https://www.barnesandnoble.com/w/ai-programming-mina-p-cheux/1143297026?ean=2940166494191" target="_blank">
         <img src="./doc/barnes-noble.png" style="width: 256px; height: auto;" />
     </a>
